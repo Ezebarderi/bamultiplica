@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BAMultiplica</title>
+    <link rel="stylesheet" href="./css/style.css"/>
 </head>
 
 <body>
@@ -20,21 +21,62 @@
         <video src="./video/y2mate.com - Let It Be_480p.mp4" controls>Let it be video</video><br><br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/AVGX5gSmTe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <hr>
-        <ul>
-            <li>Elemento1</li>
-            <li>Elemento2</li>
-            <li>Elemento3</li>
-        </ul>
-        <br><br>
-        <ol>
-            <li>Elemento1</li>
-            <li>Elemento2</li>
-            <li>Elemento3</li>
-        </ol>
+            <ul>
+                <li>Elemento1</li>
+                <li>Elemento2</li>
+                <li>Elemento3</li>
+            </ul>
+            <br><br>
+            <ol>
+                <li>Elemento1</li>
+                <li>Elemento2</li>
+                <li>Elemento3</li>
+            </ol>
 
-        <dl>
-            <dt>Termino a definir:</dt>
-            <dd>Definición</dd>
-        </dl>
+            <dl>
+                <dt>Termino a definir:</dt>
+                <dd>Definición</dd>
+            </dl>
+
+        <hr> 
+        <fieldset> 
+            <legend>datos personales</legend>
+            <form action="">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre"> 
+                    <br><br>
+
+                    <label for="textolargo">Ingresar descripción</label>
+                    <br><br>
+                    <textarea name="textolargo" id="textolargo" cols="30" rows="10"></textarea>
+                    <br><br>
+                    
+                    
+                    <label for="telefono">Telefono</label>
+                    <input type="numer" name="telefono" id="telefono">
+                    <br><br>
+
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <br><br>
+
+                    <select name="talles" id="">
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                     </select>
+                     <br><br>
+
+                     
+                    <input type="submit"/>
+                    <input type="reset" value="Borrar campos">
+
+
+             </form>
+        </fieldset>
+            <br><br>
+
+
 </body>
 </html>
