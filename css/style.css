@@ -1,3 +1,59 @@
+* {  margin: 0%;
+    padding: 0%;
+  }
 body {
-    background-color: rgb(255, 243, 226);
+    font-family: Roboto;
+    background-color: rgb(245, 243, 240);
+    padding: 20px 30px 20px 30px;
+}
+
+#aviso{
+  background-color: red;
+  border-style: double;
+  border-width: 5px;
+  padding: 10px;
+}
+
+body p {
+  color: white;
+  text-align: center;
+}
+
+/* #contacto {
+list-style-type: none;
+display: inline;
+} */
+
+#celular{
+  color: black;
+  font-size: 15px;
+  display: inline;
+  margin-left: 5px;
+}
+
+#telefono{
+  color: black;
+  font-size: 15px;
+  display: inline;
+  margin-left: 5px;
+}
+#mail{
+  color: black;
+  font-size: 15px;
+  display: inline;
+  margin-left: 5px;
+}
+#direccion{
+  color: black;
+  font-size: 15px;
+  display: inline;
+  margin-left: 5px;
+}
+
+#imagenPortada {
+  width: 100%; 
+}
+
+fieldset {
+  padding: 15px;
 }
