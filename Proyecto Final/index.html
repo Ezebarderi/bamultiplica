@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800&display=swap" rel="stylesheet">
+   
     <link rel="shortcut icon" type="image/png" href="./img/FAVICON.png">
 
 </head>
@@ -79,7 +80,7 @@
             <div class="one col-lg-4 col-md-12 col-12 p-0">
                     <img class="img-fluid" src="./img/DRUMS.png" alt="">
                     <div class="details">
-                        <h2>EXCLUSIVE DRUMS</h2>    
+                        <h2 class="exclusiveDrums">EXCLUSIVE DRUMS</h2>    
                         <button class="text-uppercase">Shop now</button>
                     </div>
             </div>    
@@ -87,7 +88,7 @@
             <div class="one col-lg-4 col-md-12 col-12 p-0">
                 <img class="img-fluid" src="./img/KEYS.png" alt="">
                 <div class="details">
-                    <h2>NEW IN</h2>    
+                    <h2 class="newIn">NEW IN</h2>    
                     <button class="text-uppercase">Shop now</button>
                 </div>
         </div>   
@@ -95,15 +96,113 @@
         <div class="one col-lg-4 col-md-12 col-12 p-0">
             <img class="img-fluid" src="./img/BASS.png" alt="">
             <div class="details">
-                <h2>FENDER BASS</h2>    
+                <h2 class="fenderBass">FENDER BASS</h2>    
                 <button class="text-uppercase">Shop now</button>
             </div>
     </div>   
 
-
+    <section id="featured">
+        <div class=" mt-3 ml-5 pt-3">
+            <p class="destacados"></p>🔥¡OFERTAS DE LA SEMANA!🔥 <span class="more">Ver más</span></p>
         </div>
       </section>
   
+      <section class="flex-container">
+        <div class="boxProducts">
+            <img src="./img/Guitarra.webp" class="producto" alt="">
+            <ul>
+                <li class="precio">$30.000</li>
+                <li class="cuotas">Hasta 6 cuotas sin interés</li>
+                <li class="instrumento">Guitarra acústica Takamine</li>
+                <button class="buy">comprar ahora</button>
+            </ul>
+        </div>
+
+        <div class="boxProducts">
+            <img src="./img/Guitarra.webp" class="producto" alt="">
+            <ul>
+                <li class="precio">$30.000</li>
+                <li class="cuotas">Hasta 6 cuotas sin interés</li>
+                <li class="instrumento">Guitarra acústica Takamine</li>
+                <button class="buy">comprar ahora</button>
+            </ul>
+        </div>
+
+        <div class="boxProducts">
+            <img src="./img/Guitarra.webp" class="producto" alt="">
+            <ul>
+                <li class="precio">$30.000</li>
+                <li class="cuotas">Hasta 6 cuotas sin interés</li>
+                <li class="instrumento">Guitarra acústica Takamine</li>
+                <button class="buy">comprar ahora</button>
+            </ul>
+        </div>
+
+        <div class="boxProducts">
+            <img src="./img/Guitarra.webp" class="producto" alt="">
+            <ul>
+                <li class="precio">$30.000</li>
+                <li class="cuotas">Hasta 6 cuotas sin interés</li>
+                <li class="instrumento">Guitarra acústica Takamine</li>
+                <button class="buy">comprar ahora</button>
+            </ul>
+        </div>
+
+        <div class="boxProducts">
+            <img src="./img/Guitarra.webp" class="producto" alt="">
+            <ul>
+                <li class="precio">$30.000</li>
+                <li class="cuotas">Hasta 6 cuotas sin interés</li>
+                <li class="instrumento">Guitarra acústica Takamine</li>
+                <button class="buy">comprar ahora</button>
+            </ul>
+        </div>
+    </section>
+
+    <section id="banner">
+        <div>
+            <h4>TEMPORADA DE LIQUIDACIÓN</h4>
+            <h1>Descuentos en instrumentos <br>
+                de hasta 50% OFF</h1>
+                <button class="text-uppercase">Comprar ahora</button>
+        </div>
+    </section>
+
+      <section class="form">
+        <fieldset>
+            <div class="titleForm"><h5>Suscribite a nuestro Newsletter y recibí descuentos exclusivos:</h5></div>
+            <form action="">
+                <label for="nombre"><strong>Nombre</strong></label> <br>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" class="campoForm">
+              
+                <br><br>
+                <label for="telefono"><strong>Telefono</strong></label>
+                <br>
+                <input type="numer" name="telefono" id="telefono" placeholder="Ingrese un número de contacto" class="campoForm">
+               
+    
+                <br><br>
+                <label for="email"> <strong>Email</strong></label> <br>
+                <input type="email" name="email" id="email" placeholder="Ingrese su email" class="campoForm">
+                
+                <br><br>
+                <label for="comoNosConociste"><strong>Cómo nos conociste?</strong></label>
+                <br> 
+                <select name="comoNosConociste" class="campoForm" id="">
+                    <option value="internet">Internet</option>
+                    <option value="unamigo">Un amigo</option>
+                    <option value="instagram">Instagram</option>
+                </select>
+                
+    
+                <br><br>
+                <input type="submit" class="buttonSubmit" />
+                <input type="reset" value="Borrar campos" class="buttonReset">
+            </form>
+        </fieldset>
+      </section>
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
